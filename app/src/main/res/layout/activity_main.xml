@@ -25,4 +25,14 @@
         android:layout_below="@+id/textTitulo"
         android:layout_alignParentStart="true" />
 
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_buttonFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFazerLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="99dp"
+        android:text="LoginFacebook" />
+
 </RelativeLayout>
